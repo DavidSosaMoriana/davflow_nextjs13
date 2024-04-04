@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "A community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures and more",
   icons: {
-    icon: "/assets/images/site-logo.svg",
+    icon: "/assets/images/download-logo.svg",
   },
 };
 
@@ -38,7 +38,7 @@ export default function RootLayout({
           appearance={{
             elements: {
               formButtonPrimary: "primary-gradient",
-              footerActionLink: "primary-text-gradient hover:text-primary-500",
+              footerActionLink: "primary-text-gradient hover:text-amber-950",
             },
           }}
         >
